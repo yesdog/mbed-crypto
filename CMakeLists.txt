@@ -7,6 +7,7 @@ endif()
 
 # Set the project root directory.
 set(MBEDTLS_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 option(ENABLE_PROGRAMS "Build mbed TLS programs." ON)
 
